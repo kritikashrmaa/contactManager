@@ -25,7 +25,6 @@ const Addcontact = () => {
       ...state,
       contacts:{
         ...state.contacts,
-       // active:e.target.active.value==='true',
         [e.target.name]:e.target.value,
         active:e.target.name==='active'?true:false
 
@@ -64,11 +63,9 @@ const Addcontact = () => {
    if(loading){
     return <Spinner/>
    }
+
+   
   return (
-
-  
-    
-
   <div className="container ml-6">
     <div className="flex pt-7">
         <p className="text-black text-xl font-semibold">Create Contact</p>
