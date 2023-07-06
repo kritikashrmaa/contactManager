@@ -1,0 +1,19 @@
+{
+  "contacts": [
+    {
+      "fname": "Kritika",
+      "lname": "sharmaaa",
+      "email": "ks916527@gmail.com",
+      "active": false,
+      "nactive": "true",
+      "id": 1
+    },
+    {
+      "fname": "kriss",
+      "lname": "s",
+      "email": "kritikashrmaa123@gmail.com",
+      "active": true,
+      "id": 2
+    }
+  ]
+}

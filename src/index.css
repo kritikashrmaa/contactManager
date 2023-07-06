@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(255, 231, 196);
+}
+@media (min-width: 1024px) {
+    .chart-container {
+      width: 900px;
+      height: 400px;
+    }
+  }
